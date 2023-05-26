@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* ========================= nav */
+body {
+    font-family: "Epilogue", sans-serif;
+}
+header {
+    background-color: white;
+}
+header nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul .fa-solid fa-bars {
+    display: none ;
+}
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+header nav ul h1 {
+    margin-left: 20px;
+    padding-top: 15px;
+    margin-right: 32px;
+    font-size: 35px;
+}
+header nav ul h1 a {
+    color: black;
+    text-decoration: none;
+}
+header nav ul p {
+    margin-top: 30px;
+    padding-left: 320px;
+    padding-right: 70px;
+}
+header nav ul p a {
+    color: hsl(236, 13%, 42%);
+    text-decoration: none;
+}
+header nav ul li {
+    margin: 15px 10px;
+    padding-top:15px ;
+    padding-right: 50px;
+    padding-left: 30px;
+}
+header nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    color: hsl(236, 13%, 42%);
+}
+header nav ul li a:hover {
+    color: hsl(0, 0%, 8%);
+}
+header nav ul button {
+    color: hsl(236, 13%, 42%);
+    background-color: white;
+    border: 2px solid hsl(0, 0%, 41%);
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 0px 15px;
+    margin-top: 20px;
+}
+header nav ul button:hover {
+    color: black;
+}
+/* ===================================== main */
+main {
+    width: 90%;
+    min-height: 600px;
+    margin-left: 100px;
+    margin-top: 40px;
+    display: flex;
+}
+main .right {
+    width: 50%;
+    height: 700px;
+    background-image: url(../img/image-hero-desktop.png);
+    background-size: 100% 100%;
+    /* margin-left: 700px; */
+}
+main .left {
+    width: 45%;
+}
+main .left h1 {
+    font-size: 80px;
+    font-weight: 800;
+}
+main .left p {
+    margin-top: 110px;
+    font-size: 20px;
+    font-weight: 400;
+    color: hsl(0, 0%, 41%);
+}
+main .left button {
+    margin-top: 100px;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 98%);
+    border: 2px solid hsl(0, 0%, 8%);
+    padding: 12px 30px;
+    border-radius: 15px;
+}
+main .left button:hover {
+    background-color: white;
+    color: black;
+}
+main .img {
+    display: flex;
+    margin: 25px;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+/* ==================== footer */
+footer  {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
